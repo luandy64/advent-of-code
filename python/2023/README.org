@@ -1,1 +1,12 @@
 * Advent of Code Python
+** Day 1
+
+#+begin_src shell
+  source ~/virtualenvs/aoc-2023/bin/activate
+  cd ~/git/advent-of-code/python/2023
+  python src/andy_aoc_2023/day1.py src/andy_aoc_2023/day1_big
+#+end_src
+
+*** Answers
+54573
+54591
