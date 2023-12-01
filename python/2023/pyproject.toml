@@ -1,0 +1,25 @@
+[project]
+name = "andy_aoc_2023"
+version = "0.0.1"
+dependencies = [
+  "",
+]
+authors = [
+  { name="Andy Lu" },
+]
+description = "All of my code for 2023"
+readme = "README.org"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/luandy64/advent-of-code"
+Issues = "https://github.com/luandy64/advent-of-code/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
