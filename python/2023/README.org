@@ -21,3 +21,26 @@
 *** Answers
 2600
 86036
+
+** Day 4
+
+#+begin_src shell
+  source ~/virtualenvs/aoc-2023/bin/activate
+  cd ~/git/advent-of-code/python/2023
+  python src/andy_aoc_2023/day4.py src/andy_aoc_2023/day4_big
+#+end_src
+
+Warning: Part 2 is a little slow
+
+#+begin_src shell
+  ~/bin/avg-time 5 python src/andy_aoc_2023/day4.py src/andy_aoc_2023/day4_big
+  real 8.994000
+  user 8.982000
+  sys 0.008000
+#+end_src
+
+where =avg-time= is [[https://stackoverflow.com/a/54920339][this bit of =awk=]]
+
+*** Answers
+19135
+5704953
