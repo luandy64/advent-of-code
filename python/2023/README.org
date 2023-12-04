@@ -39,7 +39,7 @@ Warning: Part 2 is a little slow
   sys 0.008000
 #+end_src
 
-where =avg-time= is [[https://stackoverflow.com/a/54920339][this bit of =awk=]]
+where =avg-time= is [[https://stackoverflow.com/a/54920339][this bit of ~awk~]]
 
 *** Answers
 19135
