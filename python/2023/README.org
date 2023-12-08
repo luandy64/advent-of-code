@@ -44,3 +44,24 @@ where =avg-time= is [[https://stackoverflow.com/a/54920339][this bit of ~awk~]]
 *** Answers
 19135
 5704953
+
+** Day 5
+*** Answers
+324724204
+104070862
+
+#+begin_src shell
+  -> date -Iseconds; cat src/andy_aoc_2023/BIG_INPUTS | xargs -P 0 -I '%' python src/andy_aoc_2023/day5.py src/andy_aoc_2023/BIG_MAPS %; date -Iseconds
+  2023-12-05T12:55:55-05:00
+  856496588
+  547766656
+  990928320
+  104899384
+  516299014
+  104070862  <-- This is the min aka the answer
+  324724204
+  344671053
+  114257961
+  146071405
+  2023-12-05T14:46:41-05:00
+#+end_src
